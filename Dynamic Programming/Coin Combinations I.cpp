@@ -14,8 +14,8 @@ int32_t main(){
     for(int i=0;i<n;i++){
         scanf("%lld", &num);
         vec.push_back(num);
-        dp[num] = 1;
     }
+    dp[0] = 1;
 
     for(int i=0;i<=x;i++){
         for(int j=0;j<n;j++){
